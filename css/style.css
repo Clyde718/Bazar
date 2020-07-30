@@ -1,0 +1,9 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_core.css";
+@import "blocks/_header.css";
+@import "blocks/_content.css";
+@import "blocks/_footer.css";
+
+/*media*/
+@import "media/media.css";
