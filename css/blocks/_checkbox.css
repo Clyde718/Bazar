@@ -1,0 +1,128 @@
+.filter-by-color input[type="checkbox"]:checked,
+.filter-by-color input[type="checkbox"]:not(:checked),
+.filter-by-size input[type="checkbox"]:checked,
+.filter-by-size input[type="checkbox"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label,
+.filter-by-color input[type="checkbox"]:not(:checked) + label,
+.filter-by-size input[type="checkbox"]:checked + label,
+.filter-by-size input[type="checkbox"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label:before,
+.filter-by-color input[type="checkbox"]:not(:checked) + label:before,
+.filter-by-size input[type="checkbox"]:checked + label:before,
+.filter-by-size input[type="checkbox"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+}
+
+.filter-by-size input[type="checkbox"]:not(:checked) + label:before {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.filter-by-size input[type="checkbox"]:checked + label:before {
+  box-sizing: border-box;
+}
+
+.filter-by-size input[type="checkbox"]:checked + label:before {
+  background-color: #d58e32;
+}
+
+.filter-by-color .filter-by-color__item:nth-child(1) input[type="checkbox"] + label:before {
+  background-color: #fa5f66;
+}
+.filter-by-color .filter-by-color__item:nth-child(2) input[type="checkbox"] + label:before {
+  background-color: #454545;
+}
+.filter-by-color .filter-by-color__item:nth-child(3) input[type="checkbox"] + label:before {
+  background-color: #e9e600;
+}
+.filter-by-color .filter-by-color__item:nth-child(4) input[type="checkbox"] + label:before {
+  background-color: #0190d3;
+}
+.filter-by-color .filter-by-color__item:nth-child(5) input[type="checkbox"] + label:before {
+  background-color: #f72fe4;
+}
+.filter-by-color .filter-by-color__item:nth-child(6) input[type="checkbox"] + label:before {
+  background-color: #14d400;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label:before,
+.filter-by-color input[type="checkbox"]:not(:checked) + label:before {
+  border-radius: 2px;
+}
+.filter-by-size input[type="checkbox"]:checked + label:before,
+.filter-by-size input[type="checkbox"]:not(:checked) + label:before {
+  border-radius: 4px;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label:after,
+.filter-by-color input[type="checkbox"]:not(:checked) + label:after,
+.filter-by-size input[type="checkbox"]:checked + label:after,
+.filter-by-size input[type="checkbox"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label:after,
+.filter-by-color input[type="checkbox"]:not(:checked) + label:after,
+.filter-by-size input[type="checkbox"]:checked + label:after,
+.filter-by-size input[type="checkbox"]:not(:checked) + label:after {
+  left: 2px;
+  top: 3px;
+  width: 10px;
+  height: 5px;
+  border-radius: 1px;
+  border-left: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.filter-by-color input[type="checkbox"]:not(:checked) + label:after,
+.filter-by-size input[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+}
+
+.filter-by-color input[type="checkbox"]:checked + label:after,
+.filter-by-size input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.filter-by-color__label {
+  font-size: 13px;
+  line-height: 13px;
+  color: #2a2a2a;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+.filter-by-color__item {
+  margin: 0px 0px 15px 0px;
+}
+.filter-by-color__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.filter-by-color__label:hover {
+  color: #d58e32;
+}

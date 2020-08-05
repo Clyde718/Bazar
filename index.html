@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bazar</title>
 	<link rel="stylesheet" href="css/libs/slick.css">
+	<link rel="stylesheet" href="css/libs/jquery.rateyo.min.css">
+	<link rel="stylesheet" href="css/libs/ion.rangeSlider.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/media/media.css">
 </head>
@@ -107,7 +109,6 @@
 				</div>
 			</header>
 
-
 			<section class="furniture">
 				<div class="container">
 					<div class="furniture__body">
@@ -205,20 +206,20 @@
 
 
 						<div class="stocks__columns">
-							<div class="stocks__item background-setting" style="background-image: url(img/stocks/1.jpg);">
+							<a class="stocks__item background-setting" style="background-image: url(img/stocks/1.jpg);" href="#">
 								<div class="stocks__item-inner">
 									<h2 class="stocks__item-title">guest room
 										sofa</h2>
 									<div class="stocks__item-sale">-20%</div>
 								</div>
-							</div>
+							</a>
 						</div>
 
 
 
 						<div class="stocks__columns">
 
-							<div class="stocks__item">
+							<a class="stocks__item" href="#">
 								<div class="stocks__item-img">
 									<img class="img-responsive" src="img/stocks/2.png" alt="stocks-img">
 								</div>
@@ -230,9 +231,9 @@
 								<div class="stocks__item-img">
 									<img class="img-responsive img--scale" src="img/stocks/3.png" alt="stocks-img">
 								</div>
-							</div>
+							</a>
 
-							<div class="stocks__item">
+							<a class="stocks__item" href="#">
 								<div class="stocks__item-img">
 									<img class="img-responsive" src="img/stocks/4.png" alt="stocks-img">
 								</div>
@@ -240,12 +241,899 @@
 									<h4 class="special-collection"><span class="special">special</span> collection</h4>
 									<span class="save-up">save up 45% of furniture</span>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<section class="furniture-card">
+				<div class="container">
+					<div class="furniture-card__body">
+						<div class="furniture-card__columns">
+							<div class="furniture-card__content">
+								<h4 class="furniture-card__title">furniture</h4>
+								<div class="furniture-card__underline"></div>
+
+								<div class="furniture-card__row">
+
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/1.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$30.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/2.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$15.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/3.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$25.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/4.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$15.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/5.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$15.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/6.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$25.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/7.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$15.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/8.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$15.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="furniture-card__col">
+										<div class="card">
+											<div class="card__image card__image-sale">
+												<img class="card__img img-responsive" src="img/products/furniture/9.png" alt="furniture-img">
+												<a class="quick-view" href="#">Quick View</a>
+												<a class="add-to-cart" href="#">
+													<span class="icon-shopping-basket"></span>
+													add to cart</a>
+											</div>
+											<div class="card__content">
+												<div class="card__info">
+													<h5 class="card__headline">Aenean Ru Bristique</h5>
+													<div class="rateYo" data-rateyo-rating="2"></div>
+												</div>
+												<div class="card__footer">
+													<div class="card__footer-item">
+														<button class="card__footer-heart">
+														</button>
+														<button class="card__footer-arrows">
+														</button>
+													</div>
+													<div class="card__footer-item">
+														<div class="card__footer-price">$25.00</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="furniture-card__btn">
+									<a class="load-more" href="#">
+										<span class="icon-loop2"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="furniture-card__columns">
+							<aside class="aside">
+								<div class="filter-by-categories">
+									<div class="filter-by-categories__title-box">
+										<h5 class="filter-by-categories__title">Filter By categories</h5>
+									</div>
+									<div class="filter-by-categories__item">
+										<div class="filter-by-categories__text">Furniture</div>
+										<div class="filter-by-categories__num">3</div>
+									</div>
+									<div class="filter-by-categories__item">
+										<div class="filter-by-categories__text">Sofa</div>
+										<div class="filter-by-categories__num">4</div>
+									</div>
+									<div class="filter-by-categories__item">
+										<div class="filter-by-categories__text">Chair</div>
+										<div class="filter-by-categories__num">5</div>
+									</div>
+									<div class="filter-by-categories__item">
+										<div class="filter-by-categories__text">Table</div>
+										<div class="filter-by-categories__num">5</div>
+									</div>
+									<div class="filter-by-categories__item">
+										<div class="filter-by-categories__text">Bedroom</div>
+										<div class="filter-by-categories__num">5</div>
+									</div>
+								</div>
+
+								<div class="filter-by-price">
+									<div class="filter-box">
+										<h5 class="filter-title">Filter By Price</h5>
+									</div>
+									<div class="range-slider">
+										<input type="text" class="js-range-slider" value="" />
+									</div>
+									<div class="filter-by-price__btn">
+										<button type="submit" class="filter-button">Filter</button>
+									</div>
+									<div class="extra-controls">
+										<label class="extra-controls__box">
+											<input type="text" class="js-input-from" value="0" />
+										</label>
+										<label class="extra-controls__box">
+											<input type="text" class="js-input-to" value="0" />
+										</label>
+									</div>
+								</div>
+
+								<div class="filter-by-color">
+									<div class="filter-box">
+										<h5 class="filter-title">Filter By color</h5>
+									</div>
+									<div class="filter-by-color__box">
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb1"> <label class="filter-by-color__label" for="cb1">Red</label>
+										</div>
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb2"> <label class="filter-by-color__label" for="cb2">Black</label>
+										</div>
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb3"> <label class="filter-by-color__label" for="cb3">Yellow</label>
+										</div>
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb4"> <label class="filter-by-color__label" for="cb4">Blue</label>
+										</div>
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb5"> <label class="filter-by-color__label" for="cb5">Pink</label>
+										</div>
+										<div class="filter-by-color__item">
+											<input type="checkbox" id="cb6"> <label class="filter-by-color__label" for="cb6">Green</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="filter-by-size">
+									<div class="filter-box">
+										<h5 class="filter-title">Filter By size</h5>
+									</div>
+									<div class="filter-by-size__box">
+										<div class="filter-by-size__row">
+											<div class="filter-by-size__item">
+												<input type="checkbox" id="cb-s-1"><label class="filter-by-color__label gogi"
+													for="cb-s-1">S</label>
+											</div>
+											<div class="filter-by-size__num">
+												3
+											</div>
+										</div>
+										<div class="filter-by-size__row">
+											<div class="filter-by-size__item">
+												<input type="checkbox" id="cb-s-2"><label class="filter-by-color__label gogi"
+													for="cb-s-2">M</label>
+											</div>
+											<div class="filter-by-size__num">
+												4
+											</div>
+										</div>
+										<div class="filter-by-size__row">
+											<div class="filter-by-size__item">
+												<input type="checkbox" id="cb-s-3"><label class="filter-by-color__label gogi"
+													for="cb-s-3">L</label>
+											</div>
+											<div class="filter-by-size__num">
+												5
+											</div>
+										</div>
+										<div class="filter-by-size__row">
+											<div class="filter-by-size__item">
+												<input type="checkbox" id="cb-s-4"><label class="filter-by-color__label gogi"
+													for="cb-s-4">XL</label>
+											</div>
+											<div class="filter-by-size__num">
+												5
+											</div>
+										</div>
+										<div class="filter-by-size__row">
+											<div class="filter-by-size__item">
+												<input type="checkbox" id="cb-s-5"><label class="filter-by-color__label gogi"
+													for="cb-s-5">XX</label>
+											</div>
+											<div class="filter-by-size__num">
+												5
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filter-by-tags">
+									<div class="filter-box">
+										<h5 class="filter-title">Filter By tags</h5>
+									</div>
+									<div class="filter-by-tags__box">
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Table</span>
+										</div>
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Chair</span>
+										</div>
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Hand Bag</span>
+										</div>
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Women</span>
+										</div>
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Fashion</span>
+										</div>
+										<div class="filter-by-tags__item">
+											<span class="icon-price-tags"></span>
+											<span class="filter-by-tags__text">Clothes</span>
+										</div>
+									</div>
+								</div>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="furniture-gallery">
+				<div class="container">
+
+					<div class="furniture-gallery__row">
+						<div class="furniture-gallery__columns">
+							<div class="furniture-gallery__item">
+								<div class="furniture-gallery__title-box">
+									<h4 class="furniture-gallery__title">furniture gallery</h4>
+								</div>
+
+								<div class="tabs furniture-gallery__tabs">
+
+									<ul class="tabs__caption furniture-gallery__caption">
+										<li class="active">featured</li>
+										<li>top seller</li>
+										<li>sale off</li>
+										<li>top rated</li>
+									</ul>
+
+									<div class="tabs__content active furniture-gallery__content">
+										<div class="tabs__content-top furniture-gallery__content-top">
+
+											<div class="slider-top">
+												<div class="slider-top__row">
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/10.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/11.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/12.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/13.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/14.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/15.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/16.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/17.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/18.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/19.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="slider-top__columns">
+														<div class="slider-top__item">
+															<img class="slider-top__img furniture-gallery__content-img"
+																src="img/products/top-seller/20.png" alt="top-seller-img">
+															<div class="slider-top__function">
+																<button class="slider-top__heart">
+																</button>
+																<button class="slider-top__eye">
+																	<span class="icon-eye"></span>
+																</button>
+																<button class="slider-top__basket">
+																	<span class="icon-shopping-basket"></span>
+																</button>
+															</div>
+															<div class="slider-top__descr">
+																<div class="slider-top__descr-body">
+																	<div class="slider-top__descr-title">Aenean Ru Bristique</div>
+																	<div class="rateYo" data-rateyo-rating="2"></div>
+																	<div class="slider-top__descr-price">
+																		<span class="new-price">$120.00</span>
+																		<span class="old-price">$160.00</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="tabs__content-bottom furniture-gallery__content-bottom">
+											<div class="slider-bottom">
+												<div class="slider-bottom__row">
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/10.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/11.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/12.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/13.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/14.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/15.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/16.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/17.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/18.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/19.png" alt="top-seller-img">
+														</div>
+													</div>
+													<div class="slider-bottom__columns">
+														<div class="slider-bottom__item">
+															<img class="slider-bottom__img" src="img/products/top-seller/20.png" alt="top-seller-img">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+									<div class="tabs__content furniture-gallery__content">
+										<div class="tabs__content-top furniture-gallery__content-top">
+											tabs__content-top
+										</div>
+										<div class="tabs__content-bottom furniture-gallery__content-bottom">
+											tabs__content-bottom
+										</div>
+									</div>
+
+
+
+
+									<div class="tabs__content furniture-gallery__content">
+										<div class="tabs__content-top furniture-gallery__content-top">
+											tabs__content-top
+										</div>
+										<div class="tabs__content-bottom furniture-gallery__content-bottom">
+											tabs__content-bottom
+										</div>
+									</div>
+
+
+
+
+									<div class="tabs__content furniture-gallery__content">
+										<div class="tabs__content-top furniture-gallery__content-top">
+											tabs__content-top
+										</div>
+										<div class="tabs__content-bottom furniture-gallery__content-bottom">
+											tabs__content-bottom
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+								</div>
+
+							</div>
+						</div>
+						<div class="furniture-gallery__columns">
+
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
+			</section>
+
+
 		</div>
 
 		<footer class="footer">HEllo world</footer>
@@ -255,6 +1143,8 @@
 
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.rateyo.min.js"></script>
+	<script src="js/ion.rangeSlider.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 

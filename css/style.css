@@ -2,5 +2,7 @@
 @import "_fonts.css";
 @import "_core.css";
 @import "blocks/_header.css";
+@import "blocks/_checkbox.css";
+@import "blocks/_furniture-gallery.css";
 @import "blocks/_content.css";
 @import "blocks/_footer.css";
