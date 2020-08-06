@@ -2,7 +2,13 @@
 @import "_fonts.css";
 @import "_core.css";
 @import "blocks/_header.css";
+@import "blocks/_top-slider.css";
+@import "blocks/_our-features.css";
+@import "blocks/_stocks.css";
+@import "blocks/_furniture.css";
+@import "blocks/_filters.css";
 @import "blocks/_checkbox.css";
 @import "blocks/_furniture-gallery.css";
-@import "blocks/_content.css";
+@import "blocks/_latest-blog.css";
+@import "blocks/_news-letter.css";
 @import "blocks/_footer.css";

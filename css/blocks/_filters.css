@@ -1,0 +1,283 @@
+.filter-by-categories {
+  padding: 0px 0px 61px 0px;
+}
+.filter-by-categories__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 0px 0px 15px;
+  margin: 0px 0px 20px 0px;
+}
+.filter-by-categories__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.filter-by-categories__text {
+  font-size: 13px;
+  line-height: 13px;
+  color: #2a2a2a;
+  font-weight: 400;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.filter-by-categories__num,
+.filter-by-size__num {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  line-height: 23px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.filter-by-categories__text::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background-image: url(../../img/next.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -14px;
+  transition: all 0.3s ease;
+}
+.filter-by-categories__item:hover .filter-by-categories__text::before {
+  background-image: url(../../img/next-orange.png);
+}
+.filter-by-categories__item:hover .filter-by-categories__text {
+  color: #d58e32;
+}
+.filter-by-categories__item:hover .filter-by-categories__num {
+  background-color: #d58e32;
+}
+.filter-by-categories__item-active .filter-by-categories__text {
+  color: #d58e32;
+}
+.filter-by-categories__item-active .filter-by-categories__num {
+  background-color: #d58e32;
+}
+.filter-by-categories__item-active .filter-by-categories__text::before {
+  background-image: url(../../img/next-orange.png);
+}
+.filter-by-categories__title {
+  font-size: 16px;
+  line-height: 16px;
+  color: #2a2a2a;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0px 0px 14px 0px;
+}
+.filter-by-categories__title-box {
+  border-bottom: 1px solid #2a2a2a;
+  margin: 0px 0px 30px 0px;
+}
+.irs-from {
+  display: none;
+}
+.irs-to {
+  display: none;
+}
+.irs--round .irs-min,
+.irs--round .irs-max {
+  display: none;
+}
+.irs--round .irs-line {
+  top: 25px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #d4d4d4;
+}
+.irs--round .irs-bar {
+  top: 25px;
+  height: 8px;
+  background-color: #2a2a2a;
+}
+.irs--round .irs-handle {
+  top: 19px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 4px solid #d58e32;
+}
+.irs--round .irs-handle > i:first-child {
+  background-color: transparent;
+}
+.irs--round .irs-handle:hover > i:first-child {
+  background-color: transparent;
+}
+.irs--round .irs-from,
+.irs--round .irs-to,
+.irs--round .irs-single {
+  display: none;
+}
+.filter-button {
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 11px 14px;
+  display: inline-block;
+  background-color: #d58e32;
+  cursor: pointer;
+}
+
+.filter-by-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.range-slider {
+  flex: 1 1 100%;
+  margin: 10px 0px 15px 0px;
+}
+.js-input-from,
+.js-input-to {
+  width: 39px;
+  display: inline-block;
+}
+.extra-controls {
+  height: 36px;
+  width: 114px;
+  border: 1px solid #e1e1e1;
+  display: flex;
+}
+.extra-controls__box {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+.extra-controls__box input {
+  font-size: 14px;
+  line-height: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.extra-controls__box:nth-child(2) input {
+  padding: 16px 9px 16px 16px;
+}
+.extra-controls__box:nth-child(1) input {
+  padding: 16px 9px 16px 16px;
+}
+.extra-controls__box::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 14px;
+  background-image: url(../../img/dollar.svg);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 16px;
+  color: #2a2a2a;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 0px 14px 0px;
+  display: inline-block;
+}
+.filter-box {
+  border-bottom: 1px solid #2a2a2a;
+  width: 100%;
+}
+.js-input-from {
+  color: red;
+}
+.filter-by-color {
+  padding: 60px 0px;
+}
+.filter-by-color__box,
+.filter-by-size__box {
+  margin: 30px 0px 0px 0px;
+}
+.filter-by-size__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.filter-by-size__row:hover .filter-by-size__num {
+  background-color: #d58e32;
+}
+.filter-by-size__row:hover .filter-by-color__label {
+  color: #d58e32;
+}
+.filter-by-size__row {
+  margin: 0px 0px 20px 0px;
+}
+.filter-by-size__row:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.filter-by-size__row.gogi-active .filter-by-size__num {
+  background-color: #d58e32;
+}
+.filter-by-tags {
+  padding: 60px 0px 0px 0px;
+}
+.filter-by-tags__box {
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-by-tags__item {
+  border: 1px solid #d7d7d7;
+  padding: 12px;
+  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  margin: 0px 16px 12px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.filter-by-tags__item:nth-of-type(2n) {
+  margin: 0px 0px 12px 0px;
+}
+.filter-by-tags__text {
+  font-size: 14px;
+  line-height: 14px;
+  color: #959595;
+  display: inline-block;
+  padding: 0px 0px 0px 6px;
+  transition: all 0.3s ease-in;
+}
+.icon-price-tags {
+  color: #959595;
+  font-size: 13px;
+  transition: all 0.3s ease-in;
+}
+.filter-by-tags__item:hover {
+  border: 1px solid #d58e32;
+}
+.filter-by-tags__item:hover .filter-by-tags__text {
+  color: #d58e32;
+}
+.filter-by-tags__item:hover .icon-price-tags {
+  color: #d58e32;
+}
+.filter-by-tags__item.filter-by-tags__item-active {
+  border: 1px solid #d58e32;
+}
+.filter-by-tags__item.filter-by-tags__item-active .filter-by-tags__text {
+  color: #d58e32;
+}
+.filter-by-tags__item.filter-by-tags__item-active .icon-price-tags {
+  color: #d58e32;
+}

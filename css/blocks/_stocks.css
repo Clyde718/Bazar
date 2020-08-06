@@ -1,0 +1,112 @@
+.stocks__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.stocks__columns:nth-child(1) .stocks__item {
+  min-height: 418px;
+  display: grid;
+  padding: 33px;
+}
+.stocks__item {
+  text-decoration: none;
+}
+.stocks__item-inner {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.stocks__item-title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  max-width: 246px;
+  font-weight: 600;
+  margin: 0px 0px 18px 0px;
+}
+.stocks__item-sale {
+  border: 5px solid #ffffff;
+  padding: 18px 15px;
+  display: inline-block;
+  font-size: 50px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+.stocks__columns:nth-child(2) {
+  display: grid;
+  grid-gap: 30px;
+}
+.stocks__columns:nth-child(2) .stocks__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stocks__columns:nth-child(2) .stocks__item .stocks__item-img {
+  flex: 0 0 151px;
+}
+.stocks__columns:nth-child(2) .stocks__item:nth-child(2) .stocks__item-img {
+  flex: 0 0 249px;
+}
+.stocks__columns:nth-child(2) .stocks__item:nth-child(1) {
+  background-color: #e8edf7;
+}
+.stocks__columns:nth-child(2) .stocks__item:nth-child(2) {
+  background-color: #fbf3f7;
+}
+.stocks__columns:nth-child(2) .stocks__item:nth-child(2) .stocks__item-content {
+  padding: 0px 12px;
+}
+.office-chair {
+  font-size: 30px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.office {
+  font-weight: 600;
+}
+.collection {
+  font-size: 30px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 14px 0px 19px 0px;
+}
+.stocks__item-price {
+  font-size: 36px;
+  line-height: 36px;
+  color: #d58e32;
+  font-weight: 600;
+}
+.stocks__item-img img {
+  transform: scale(1.2);
+}
+.stocks__item-img img.img--scale {
+  transform: scale(1.1);
+}
+.special-collection {
+  font-size: 24px;
+  line-height: 36px;
+  color: #d58e32;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.special {
+  font-weight: 600;
+}
+.save-up {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 300;
+  display: inline-block;
+  text-transform: uppercase;
+}

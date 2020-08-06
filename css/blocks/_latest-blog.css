@@ -1,0 +1,131 @@
+.latest-blog {
+  padding: 0px 0px 77px 0px;
+}
+.latest-blog__row {
+  display: flex;
+  margin: 30px -15px 0px -15px;
+  min-width: 0;
+}
+.latest-blog__columns {
+  padding: 0px 15px;
+  flex: 0 1 33.333%;
+  min-width: 0;
+}
+.latest-blog__image {
+  width: 350px;
+  height: 239px;
+  position: relative;
+}
+.latest-blog__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.latest-blog__date-cont,
+.latest-blog__comments-text {
+  font-size: 13px;
+  line-height: 13px;
+  color: #676767;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.latest-blog__comments-text {
+  text-transform: none;
+}
+.latest-blog__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 22px;
+}
+.latest-blog__info .icon-calendar,
+.latest-blog__info .icon-bubbles2 {
+  margin: 0px 8px 0px 0px;
+  display: inline-block;
+}
+.latest-blog__content-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2a2a;
+  font-weight: 600;
+}
+.latest-blog__content {
+  padding: 5px;
+}
+.latest-blog__content-paragraph {
+  font-size: 14px;
+  line-height: 24px;
+  color: #676767;
+  font-weight: 500;
+  max-width: 275px;
+  margin: 22px 0px 40px 0px;
+}
+.latest-blog__btn {
+  text-align: center;
+}
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 17px 40px;
+  background-color: #2a2a2a;
+  transition: all 0.3s ease;
+}
+.read-more:hover {
+  background-color: #d58e32;
+}
+.latest-blog__body {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  transform: translateY(-60px);
+}
+.latest-blog__dots .slick-dots {
+  display: flex;
+  align-items: center;
+}
+.latest-blog__dots .slick-dots li {
+  list-style-type: none;
+  margin: 0px 13px 0px 0px;
+}
+.latest-blog__dots .slick-dots li:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.latest-blog__dots .slick-dots button {
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+.latest-blog__dots .slick-dots li.slick-active button {
+  background-color: #d58e32;
+}
+.latest-blog__top {
+  display: flex;
+  align-items: flex-end;
+}
+.latest-blog__dots {
+  flex: 0 0 64px;
+  margin: 0px 0px 0px 24px;
+}
+.latest-blog__box {
+  flex: 1 1 auto;
+}
+.latest-blog__item {
+  cursor: pointer;
+}
+.latest-blog__content-title {
+  transition: all 0.3s ease;
+}
+.latest-blog__item:hover .latest-blog__content-title {
+  color: #d58e32;
+}
