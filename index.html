@@ -30,10 +30,10 @@
 								<ul class="header__top-list">
 									<li class="header__top-item">
 										<span class="icon-user"></span>
-										<a class="header__top-link" href="#">Login</a></li>
+										<a class="header__top-link popup-link" href="#login-modal">Login</a></li>
 									<li class="header__top-item">
 										<span class="icon-lock"></span>
-										<a class="header__top-link" href="#">Register</a></li>
+										<a class="header__top-link popup-link" href="#register-modal">Register</a></li>
 								</ul>
 							</div>
 						</div>
@@ -55,7 +55,7 @@
 							</div>
 							<div class="header__content-col">
 								<div class="header__content-basket">
-									<a class="basket" href="#">
+									<a class="basket popup-link" href="empty-card-modal">
 										<span class="icon-shopping-basket"></span>
 									</a>
 									<span class="basket__quantity">0</span>
@@ -86,7 +86,7 @@
 							<div class="header__bottom-col">
 								<nav class="header__menu">
 									<ul class="header__list">
-										<li class="header__item"><a class="header__link" href="#">home</a></li>
+										<li class="header__item"><a class="header__link popup-link" href="cart-modal">home</a></li>
 										<li class="header__item"><a class="header__link" href="#">slider</a></li>
 										<li class="header__item"><a class="header__link" href="#">features</a></li>
 										<li class="header__item"><a class="header__link" href="#">stocks</a></li>
@@ -112,7 +112,6 @@
 			<section class="furniture">
 				<div class="container">
 					<div class="furniture__body">
-
 						<div class="furniture-slider">
 							<div class="furniture__item background-setting" style="background-image: url(img/top-slider/1.jpg);">
 								<div class="furniture__inner">
@@ -141,7 +140,6 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 					<div class="furniture__arrows">
 
@@ -203,8 +201,6 @@
 			<section class="stocks">
 				<div class="container">
 					<div class="stocks__grid">
-
-
 						<div class="stocks__columns">
 							<a class="stocks__item background-setting" style="background-image: url(img/stocks/1.jpg);" href="#">
 								<div class="stocks__item-inner">
@@ -214,11 +210,7 @@
 								</div>
 							</a>
 						</div>
-
-
-
 						<div class="stocks__columns">
-
 							<a class="stocks__item" href="#">
 								<div class="stocks__item-img">
 									<img class="img-responsive" src="img/stocks/2.png" alt="stocks-img">
@@ -232,7 +224,6 @@
 									<img class="img-responsive img--scale" src="img/stocks/3.png" alt="stocks-img">
 								</div>
 							</a>
-
 							<a class="stocks__item" href="#">
 								<div class="stocks__item-img">
 									<img class="img-responsive" src="img/stocks/4.png" alt="stocks-img">
@@ -242,7 +233,6 @@
 									<span class="save-up">save up 45% of furniture</span>
 								</div>
 							</a>
-
 						</div>
 					</div>
 				</div>
@@ -263,7 +253,8 @@
 										<div class="card">
 											<div class="card__image card__image-sale">
 												<img class="card__img img-responsive" src="img/products/furniture/1.png" alt="furniture-img">
-												<a class="quick-view" href="#">Quick View</a>
+												<a class="quick-view popup-link" href="product-details-modal">Quick View</a>
+
 												<a class="add-to-cart" href="#">
 													<span class="icon-shopping-basket"></span>
 													add to cart</a>
@@ -693,26 +684,21 @@
 				</div>
 			</section>
 
-
 			<section class="furniture-gallery">
 				<div class="container">
-
 					<div class="furniture-gallery__row">
 						<div class="furniture-gallery__columns">
 							<div class="furniture-gallery__item">
 								<div class="furniture-gallery__title-box">
 									<h4 class="furniture-gallery__title">furniture gallery</h4>
 								</div>
-
 								<div class="tabs furniture-gallery__tabs">
-
 									<ul class="tabs__caption furniture-gallery__caption">
 										<li class="active">featured</li>
 										<li>top seller</li>
 										<li>sale off</li>
 										<li>top rated</li>
 									</ul>
-
 									<div class="tabs__content active furniture-gallery__content">
 										<div class="tabs__content-top furniture-gallery__content-top">
 											<div class="slider-top">
@@ -1070,7 +1056,6 @@
 										</div>
 									</div>
 
-
 									<div class="tabs__content furniture-gallery__content">
 										<div class="tabs__content-top furniture-gallery__content-top">
 											<div class="slider-top">
@@ -1427,7 +1412,6 @@
 											</div>
 										</div>
 									</div>
-
 
 									<div class="tabs__content furniture-gallery__content">
 										<div class="tabs__content-top furniture-gallery__content-top">
@@ -2142,12 +2126,6 @@
 											</div>
 										</div>
 									</div>
-
-
-
-
-
-
 								</div>
 							</div>
 						</div>
@@ -2171,12 +2149,6 @@
 							</div>
 						</div>
 					</div>
-
-
-
-
-
-
 				</div>
 			</section>
 
@@ -2187,7 +2159,6 @@
 							<h4 class="latest-blog__title">latest blog</h4>
 						</div>
 						<div class="latest-blog__dots">
-
 						</div>
 					</div>
 
@@ -2483,7 +2454,6 @@
 					</div>
 				</div>
 			</section>
-
 		</div>
 
 		<footer class="footer">
@@ -2582,7 +2552,6 @@
 							<a href="#" class="footer__bottom-socials-item">
 								<span class="icon-pinterest-p"></span>
 							</a>
-
 						</div>
 					</div>
 				</div>
@@ -2592,10 +2561,199 @@
 
 
 
+	<div id="register-modal" class="register-modal popup">
+		<div class="register-modal__body popup__body">
+			<div class="register-modal__content popup__content">
+				<div class="popup__close close-popup">
+				</div>
+				<div class="register-modal__title">registration</div>
+				<div class="register-modal__form">
+					<form class="modal-form" action="#">
+						<input class="modal-form__text" type="text" placeholder="Name*" required>
+						<input class="modal-form__email" type="email" placeholder="Email*" required>
+						<input class="modal-form__password" type="password" placeholder="Password*" required>
+						<button class="modal-form__submit">register</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="login-modal" class="login-modal popup">
+		<div class="login-modal__body popup__body">
+			<div class="login-modal__content popup__content">
+				<div class="popup__close close-popup">
+				</div>
+				<div class="login-modal__title">login</div>
+				<div class="login-modal__form">
+					<form class="modal-form" action="#">
+						<input class="modal-form__text" type="text" placeholder="Name/Email*" required>
+						<input class="modal-form__password" type="password" placeholder="Password*" required>
+						<button class="modal-form__submit">login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="empty-card-modal" class="empty-card-modal popup">
+		<div class="empty-card-modal__body popup__body">
+			<div class="empty-card-modal__content popup__content">
+				<div class="popup__close close-popup">
+				</div>
+				<div class="empty-card-modal__title">Your cart is empty</div>
+				<div class="empty-card-modal__descr">But it's never too late to fix it :)</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="product-details-modal" class="product-details-modal popup">
+		<div class="product-details-modal__body popup__body">
+			<div class="product-details-modal__content popup__content">
+				<div class="popup__close close-popup">
+				</div>
+
+				<div class="product-details-modal__row">
+					<div class="product-details-modal__columns">
+						<div class="product-details-modal__item">
+							<div class="product-details-modal__img">
+								<img src="img/products/furniture/12.png" alt="furniture_img">
+							</div>
+						</div>
+					</div>
+					<div class="product-details-modal__columns">
+						<div class="product-details-modal__item">
+							<div class="product-details-modal__head">
+								<h6 class="product-details-modal__title">Sunbaby Magic Bear Chair</h6>
+								<div class="product-details-modal__rate">
+									<div class="rateYo" data-rateyo-rating="2"></div>
+									<span class="product-details-modal__reviews">(0 reviews)</span>
+								</div>
+							</div>
+
+							<div class="product-details-modal__price">
+								<div class="card__footer-price">$250.00</div>
+							</div>
+
+							<div class="product-details-modal__descr">
+								<div class="product-details-modal__btn">
+									<a class="add-to-cart" href="#">
+										<span class="icon-shopping-basket"></span>
+										add to cart</a>
+									<button class="card__footer-heart">
+									</button>
+								</div>
+								<div class="product-details-modal__text">
+									<h5 class="product-details-modal__subtitle">Quick Overview</h5>
+									<p class="product-details-modal__paragraph">
+										Nam tristique porta ligula, vel viverra sem eleifend nec. Nulla sed purus augue, eu euis mod tellus.
+										Nam mattis eros tis sagittis. Vestibulum suscipit cursus biben.
+									</p>
+								</div>
+							</div>
+
+							<div class="product-details-modal__spec">
+								<p><span class="availability">Availability:</span><span class="stock">In Stock</span></p>
+								<p><span class="category">Category:</span><span class="furniture">Furniture</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-details-modal__row-bot">
+					<div class="product-details-modal__row-col">
+						<div class="product-details-modal__row-ite"></div>
+					</div>
+					<div class="product-details-modal__row-col">
+						<div class="product-details-modal__row-ite">
+							<div class="product-details-modal__socials">
+								<a href="#" class="product-details-modal__socials-item">
+									<span class="icon-facebook"></span>
+									<span class="product-details-modal__socials-text">Share</span>
+								</a>
+								<a href="#" class="product-details-modal__socials-item">
+									<span class="icon-google-plus"></span>
+									<span class="product-details-modal__socials-text">Google+</span>
+								</a>
+								<a href="#" class="product-details-modal__socials-item">
+									<span class="icon-twitter"></span>
+									<span class="product-details-modal__socials-text">Tweet</span>
+								</a>
+								<a href="#" class="product-details-modal__socials-item">
+									<span class="icon-pinterest-p"></span>
+									<span class="product-details-modal__socials-text">Pinterest</span>
+								</a>
+								<a href="#" class="product-details-modal__socials-item">
+									<span class="icon-linkedin2"></span>
+									<span class="product-details-modal__socials-text">Linkedin</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="cart-modal" class="cart-modal popup">
+		<div class="cart-modal__body popup__body">
+			<div class="cart-modal__content popup__content">
+				<div class="popup__close close-popup">
+				</div>
+
+				<div class="cart-basket">
+					<div class="cart-basket__row">
+						<div class="cart-basket__columns">
+							<div class="cart-basket__item">
+								<div class="cart-basket__img">
+									<img src="img/products/furniture/14.png" alt="cart-basket__img">
+								</div>
+							</div>
+						</div>
+						<div class="cart-basket__columns">
+							<div class="cart-basket__item">
+								<h4 class="cart-basket__title">Sunbaby Magic Bear Chair</h4>
+								<div class="cart-basket__item-row">
+									<div class="cart-basket__item-col">
+										<div class="cart-basket__price">
+											<div class="card__footer-price">$250.00</div>
+										</div>
+									</div>
+									<div class="cart-basket__item-col">
+										<div class="cart-basket__add">
+											<div class="cart-basket__quantity">
+
+											</div>
+											<div class="cart-basket__sum">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/jquery.rateyo.min.js"></script>
 	<script src="js/ion.rangeSlider.min.js"></script>
+	<script src="js/modal.js"></script>
 	<script src="js/app.js"></script>
 </body>
 

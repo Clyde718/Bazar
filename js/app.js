@@ -129,7 +129,7 @@ $(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><span class="icon-arrow_forward_ios"></span></button>',
     asNavFor: '.slider-top__row-1',
     focusOnSelect: true,
-    autoplay: true,
+    // autoplay: true,
   });
   $('.slider-top__row-1').slick({
     slidesToShow: 1,
@@ -157,7 +157,7 @@ $(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><span class="icon-arrow_forward_ios"></span></button>',
     asNavFor: '.slider-top__row-2',
     focusOnSelect: true,
-    autoplay: true
+    // autoplay: true
   });
 
   $('.slider-top__row-2').slick({
@@ -187,7 +187,7 @@ $(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><span class="icon-arrow_forward_ios"></span></button>',
     asNavFor: '.slider-top__row-3',
     focusOnSelect: true,
-    autoplay: true
+    // autoplay: true
   });
 
   $('.slider-top__row-3').slick({
@@ -216,7 +216,7 @@ $(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><span class="icon-arrow_forward_ios"></span></button>',
     asNavFor: '.slider-top__row-4',
     focusOnSelect: true,
-    autoplay: true
+    // autoplay: true
   });
 
   $('.slider-top__row-4').slick({
