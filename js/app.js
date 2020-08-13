@@ -130,6 +130,29 @@ $(document).ready(function () {
     asNavFor: '.slider-top__row-1',
     focusOnSelect: true,
     // autoplay: true,
+    responsive: [
+      {
+        breakpoint: 599,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      }, {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 409,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+
   });
   $('.slider-top__row-1').slick({
     slidesToShow: 1,
@@ -158,6 +181,28 @@ $(document).ready(function () {
     asNavFor: '.slider-top__row-2',
     focusOnSelect: true,
     // autoplay: true
+    responsive: [
+      {
+        breakpoint: 599,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      }, {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 409,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      }
+    ]
   });
 
   $('.slider-top__row-2').slick({
@@ -188,6 +233,28 @@ $(document).ready(function () {
     asNavFor: '.slider-top__row-3',
     focusOnSelect: true,
     // autoplay: true
+    responsive: [
+      {
+        breakpoint: 599,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      }, {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 409,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      }
+    ]
   });
 
   $('.slider-top__row-3').slick({
@@ -217,6 +284,28 @@ $(document).ready(function () {
     asNavFor: '.slider-top__row-4',
     focusOnSelect: true,
     // autoplay: true
+    responsive: [
+      {
+        breakpoint: 599,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        }
+      }, {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 409,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      }
+    ]
   });
 
   $('.slider-top__row-4').slick({
@@ -242,8 +331,37 @@ $(document).ready(function () {
     slidesToScroll: 3,
     dots: true,
     arrows: false,
+    infinite: false,
     speed: 300,
     appendDots: $('.latest-blog__dots'),
+    responsive: [
+      {
+        breakpoint: 1155,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 778,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 481,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+          nextArrow: '<button type="button" class="slick-next">Next</button>',
+          arrows: true,
+          dots: false,
+          appendArrows: '.latest-blog__dots',
+        }
+      },
+    ]
   });
 
 });

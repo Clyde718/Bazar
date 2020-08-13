@@ -383,3 +383,108 @@ body.lock {
   font-weight: 300;
   text-decoration: line-through;
 }
+
+@media (max-width: 768px) {
+  .empty-card-modal__title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .empty-card-modal__descr {
+    font-size: 24px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 360px) {
+  .empty-card-modal__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .empty-card-modal__descr {
+    font-size: 20px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-modal__content,
+  .login-modal__content {
+    padding: 30px 25px 24px 25px;
+  }
+}
+
+@media (max-width: 1091px) {
+  .product-details-modal__row-col:nth-child(1) {
+    display: none;
+  }
+  .product-details-modal__row-col:nth-child(2) {
+    flex: 1 1 100%;
+  }
+  .product-details-modal__socials {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-details-modal__img {
+    height: 286px;
+  }
+  .product-details-modal__columns:nth-child(1) {
+    flex: 0 0 307px;
+    max-width: 307px;
+    width: 100%;
+  }
+  .product-details-modal__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .product-details-modal__spec {
+    display: flex;
+  }
+  .product-details-modal__spec p + p {
+    margin: 0px 0px 0px 12px;
+  }
+  .product-details-modal__spec .availability,
+  .product-details-modal__spec .category {
+    padding: 0px 12px 0px 0px;
+  }
+  .product-details-modal__descr {
+    padding: 21px 0px 0px 0px;
+    border-bottom: none;
+  }
+  .product-details-modal__spec {
+    padding: 12px 0px 12px 0px;
+    border-bottom: none;
+  }
+  .product-details-modal__row-col:nth-child(2) .product-details-modal__row-ite {
+    padding: 0px 0px 0px 0px;
+  }
+  .product-details-modal__row-bot {
+    border-top: 1px solid #cccccc;
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 567px) {
+  .product-details-modal__row {
+    flex-direction: column;
+  }
+  .product-details-modal__columns:nth-child(1) {
+    margin: 0 auto;
+  }
+
+  .product-details-modal__socials-item + .product-details-modal__socials-item {
+    margin: 0px 8px 8px 8px;
+  }
+  .product-details-modal__socials-item:nth-child(1) {
+    margin: 0px 8px 8px 8px;
+  }
+  .product-details-modal__content {
+    padding: 45px 18px 17px 18px;
+  }
+  .product-details-modal__columns:nth-child(2) .product-details-modal__item {
+    padding: 0px 0px 0px 0px;
+  }
+}
